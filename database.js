@@ -2,7 +2,7 @@
 const mongoose = require('mongoose');
 
 // Get MongoDB URL
-const DB_URI = "mongodb+srv://otavie:1234@threecu-cluster.8yarvq3.mongodb.net/threecu?retryWrites=true&w=majority"
+const DB_URI = "mongodb+srv://<username>:<password>@threecu-cluster.8yarvq3.mongodb.net/<database-name>?retryWrites=true&w=majority"
 
 // Function for Connecting to the MongoDB Database 
 const connectToDB = () => {
